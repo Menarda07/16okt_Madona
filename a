@@ -1,0 +1,15 @@
+# reversed()
+
+# lietotājs ievada vārdu
+vards=input("Ievadi vārdu: ")
+
+# kur glabāsies apgrieztais vārds? Izveidojam tukšu virkni.
+apgriezts_vards="" # tukša virkne
+
+# Jāiziet cauri simbolu virknes apgrieztā secībā un katrs burts
+# jāsaglaā tukšajā mainīgajā
+for burts in vards[::-1]: # ir jāizprot ko nozīmē šie apzīmējumi!
+    apgriezts_vards=apgriezts_vards+burts # apgriezts_vārds+burts
+
+# izvadam apgriezto vārdu
+    
